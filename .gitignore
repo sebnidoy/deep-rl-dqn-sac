@@ -1,0 +1,28 @@
+__pycache__/
+dist/
+*.py[cod]
+*$py.class
+*.egg-info/
+.DS_Store
+.idea/
+.vscode/
+.venv/
+.ruff_cache/
+
+# Weights & Biases local run cache
+wandb/
+
+# Working notes, handout summaries and chat transcripts.
+# README.md is the only markdown that gets published.
+*.md
+!README.md
+
+# Trained weights: regenerate by re-running. Logs, configs and figures in exp/
+# are tracked so the README figures render and the numbers stay reproducible.
+exp/**/agent.pt
+
+# Rendered rollout videos (only written with --num_render_trajectories > 0)
+*.mp4
+
+# Submission archive
+submit.zip
