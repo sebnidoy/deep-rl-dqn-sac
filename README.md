@@ -1,4 +1,4 @@
-# Q-Learning and Actor-Critic Algorithms
+# Q-Learning and Soft Actor-Critic
 
 Solutions for Homework 3 of UC Berkeley CS 285: Deep Reinforcement Learning (Spring 2026).
 
